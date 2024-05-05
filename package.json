@@ -1,6 +1,6 @@
 {
-  "name": "@orestbida/iframemanager",
-  "version": "1.2.5",
+  "name": "@icetee/iframemanager",
+  "version": "1.2.6",
   "description": "GDPR friendly iframe manager written in vanilla js",
   "main": "dist/iframemanager.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/orestbida/iframemanager.git"
+    "url": "https://github.com/icetee/iframemanager.git"
   },
   "keywords": [
     "gdpr",
@@ -24,9 +24,9 @@
   "author": "Orest Bida",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/orestbida/iframemanager/issues"
+    "url": "https://github.com/icetee/iframemanager/issues"
   },
-  "homepage": "https://github.com/orestbida/iframemanager#readme",
+  "homepage": "https://github.com/icetee/iframemanager#readme",
   "devDependencies": {
     "@rollup/plugin-eslint": "^9.0.4",
     "@rollup/plugin-terser": "^0.4.3",

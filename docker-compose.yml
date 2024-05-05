@@ -1,0 +1,6 @@
+services:
+  cli:
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/node/app

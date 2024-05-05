@@ -1,6 +1,6 @@
 /*!
- * iframemanager v1.2.5
- * Author Orest Bida
+ * iframemanager v1.2.6
+ * Author Orest Bida, Tamás András Horváth
  * Released under the MIT License
  */
 (() => {
@@ -868,22 +868,22 @@
         getConfig: () => config,
 
         reset: () => {
-            clearObservers()
+            clearObservers();
 
-            win = undefined
-            doc = undefined
-            config = undefined
-            services = undefined
-            onChangeCallback = undefined
-            allServiceProps = {}
-            serviceObservers = {}
-            stopServiceObserver = {}
-            currLang = ''
-            services = {}
-            serviceNames = undefined
-            servicesState = new Map()
-            currentEventSource = API_EVENT_SOURCE
-            onChangeCallback = undefined
+            win = undefined;
+            doc = undefined;
+            config = undefined;
+            services = undefined;
+            onChangeCallback = undefined;
+            allServiceProps = {};
+            serviceObservers = {};
+            stopServiceObserver = {};
+            currLang = '';
+            services = {};
+            serviceNames = undefined;
+            servicesState = new Map();
+            currentEventSource = API_EVENT_SOURCE;
+            onChangeCallback = undefined;
         },
 
         run: (_config) => {
